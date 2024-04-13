@@ -2,7 +2,7 @@
  <img width=200px height=200px src="assets/app_icons/icon-red.png"/>
 </p>
 
-<h1 align="center"> Mangayomi </h1>
+<h1 align="center"> Filmpisso </h1>
 
 <p align="center">
 
