@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/category.dart';
-import 'package:mangayomi/modules/more/categories/providers/isar_providers.dart';
-import 'package:mangayomi/modules/more/categories/widgets/custom_textfield.dart';
-import 'package:mangayomi/modules/widgets/progress_center.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/category.dart';
+import 'package:filmpisso/modules/more/categories/providers/isar_providers.dart';
+import 'package:filmpisso/modules/more/categories/widgets/custom_textfield.dart';
+import 'package:filmpisso/modules/widgets/progress_center.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 
 class CategoriesScreen extends ConsumerStatefulWidget {
   final (bool, int) data;
@@ -183,7 +183,8 @@ class _CategoriesTabState extends ConsumerState<CategoriesTab> {
                                                                           index]
                                                                       .id!);
                                                             });
-                                                            if (context.mounted) {
+                                                            if (context
+                                                                .mounted) {
                                                               Navigator.pop(
                                                                   context);
                                                             }

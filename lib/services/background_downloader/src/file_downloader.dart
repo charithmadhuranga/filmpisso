@@ -7,7 +7,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:logging/logging.dart';
-import 'package:mangayomi/services/background_downloader/background_downloader.dart';
+import 'package:filmpisso/services/background_downloader/background_downloader.dart';
 
 import 'base_downloader.dart';
 import 'localstore/localstore.dart';

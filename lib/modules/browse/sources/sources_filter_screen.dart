@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:grouped_list/grouped_list.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/more/settings/browse/providers/browse_state_provider.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/cached_network.dart';
-import 'package:mangayomi/utils/language.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/more/settings/browse/providers/browse_state_provider.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/cached_network.dart';
+import 'package:filmpisso/utils/language.dart';
 
 class SourcesFilterScreen extends ConsumerWidget {
   final bool isManga;

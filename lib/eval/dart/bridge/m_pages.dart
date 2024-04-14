@@ -1,14 +1,14 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
-import 'package:mangayomi/eval/dart/bridge/m_manga.dart';
-import 'package:mangayomi/eval/dart/model/m_manga.dart';
-import 'package:mangayomi/eval/dart/model/m_pages.dart';
+import 'package:filmpisso/eval/dart/bridge/m_manga.dart';
+import 'package:filmpisso/eval/dart/model/m_manga.dart';
+import 'package:filmpisso/eval/dart/model/m_pages.dart';
 
 class $MPages implements MPages, $Instance {
   $MPages.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'MPages'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'MPages'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {

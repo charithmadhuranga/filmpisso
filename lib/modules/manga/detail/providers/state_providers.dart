@@ -1,10 +1,10 @@
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/download.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/modules/manga/download/providers/download_provider.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/download.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/modules/manga/download/providers/download_provider.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'state_providers.g.dart';
 
@@ -285,7 +285,7 @@ class ChapterFilterResultState extends _$ChapterFilterResultState {
 @riverpod
 class ChapterSetIsBookmarkState extends _$ChapterSetIsBookmarkState {
   @override
- void build({required Manga manga}) {}
+  void build({required Manga manga}) {}
 
   set() {
     final chapters = ref.watch(chaptersListStateProvider);
@@ -304,7 +304,7 @@ class ChapterSetIsBookmarkState extends _$ChapterSetIsBookmarkState {
 @riverpod
 class ChapterSetIsReadState extends _$ChapterSetIsReadState {
   @override
- void build({required Manga manga}) {}
+  void build({required Manga manga}) {}
 
   set() {
     final chapters = ref.watch(chaptersListStateProvider);
@@ -323,7 +323,7 @@ class ChapterSetIsReadState extends _$ChapterSetIsReadState {
 @riverpod
 class ChapterSetDownloadState extends _$ChapterSetDownloadState {
   @override
- void build({required Manga manga}) {}
+  void build({required Manga manga}) {}
 
   set() {
     ref.read(isLongPressedStateProvider.notifier).update(false);

@@ -1,13 +1,13 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/eval/dart/model/source_preference.dart';
+import 'package:filmpisso/eval/dart/model/source_preference.dart';
 
 class $CheckBoxPreference implements SourcePreference, $Instance {
   $CheckBoxPreference.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(BridgeTypeSpec(
-      'package:mangayomi/bridge_lib.dart', 'CheckBoxPreference'));
+      'package:filmpisso/bridge_lib.dart', 'CheckBoxPreference'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -143,7 +143,7 @@ class $SwitchPreferenceCompat implements SourcePreference, $Instance {
   $SwitchPreferenceCompat.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(BridgeTypeSpec(
-      'package:mangayomi/bridge_lib.dart', 'SwitchPreferenceCompat'));
+      'package:filmpisso/bridge_lib.dart', 'SwitchPreferenceCompat'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -279,7 +279,7 @@ class $ListPreference implements SourcePreference, $Instance {
   $ListPreference.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'ListPreference'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'ListPreference'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -439,7 +439,7 @@ class $MultiSelectListPreference implements SourcePreference, $Instance {
   $MultiSelectListPreference.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(BridgeTypeSpec(
-      'package:mangayomi/bridge_lib.dart', 'MultiSelectListPreference'));
+      'package:filmpisso/bridge_lib.dart', 'MultiSelectListPreference'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -604,7 +604,7 @@ class $EditTextPreference implements SourcePreference, $Instance {
   $EditTextPreference.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(BridgeTypeSpec(
-      'package:mangayomi/bridge_lib.dart', 'EditTextPreference'));
+      'package:filmpisso/bridge_lib.dart', 'EditTextPreference'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {

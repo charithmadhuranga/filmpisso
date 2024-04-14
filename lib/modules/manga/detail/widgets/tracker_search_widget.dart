@@ -1,12 +1,12 @@
 import 'package:draggable_menu/draggable_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/models/track_search.dart';
-import 'package:mangayomi/modules/manga/detail/providers/track_state_providers.dart';
-import 'package:mangayomi/modules/widgets/custom_extended_image_provider.dart';
-import 'package:mangayomi/modules/widgets/progress_center.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/models/track_search.dart';
+import 'package:filmpisso/modules/manga/detail/providers/track_state_providers.dart';
+import 'package:filmpisso/modules/widgets/custom_extended_image_provider.dart';
+import 'package:filmpisso/modules/widgets/progress_center.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class TrackerWidgetSearch extends ConsumerStatefulWidget {
   final bool isManga;

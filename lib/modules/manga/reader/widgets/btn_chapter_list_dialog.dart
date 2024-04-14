@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/modules/manga/reader/providers/push_router.dart';
-import 'package:mangayomi/modules/manga/reader/providers/reader_controller_provider.dart';
-import 'package:mangayomi/modules/widgets/draggable_scroll_bar.dart';
-import 'package:mangayomi/utils/date.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/modules/manga/reader/providers/push_router.dart';
+import 'package:filmpisso/modules/manga/reader/providers/reader_controller_provider.dart';
+import 'package:filmpisso/modules/widgets/draggable_scroll_bar.dart';
+import 'package:filmpisso/utils/date.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 Widget btnToShowChapterListDialog(
     BuildContext context, String title, Chapter chapter,

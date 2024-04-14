@@ -1,8 +1,8 @@
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/models/track_preference.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/models/track_preference.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'track_providers.g.dart';
 
@@ -48,7 +48,8 @@ class Tracks extends _$Tracks {
 }
 
 @riverpod
-class UpdateProgressAfterReadingState extends _$UpdateProgressAfterReadingState {
+class UpdateProgressAfterReadingState
+    extends _$UpdateProgressAfterReadingState {
   @override
   bool build() {
     return isar.settings.getSync(227)!.updateProgressAfterReading ?? true;
@@ -57,7 +58,7 @@ class UpdateProgressAfterReadingState extends _$UpdateProgressAfterReadingState 
   void set(bool value) {
     final settings = isar.settings.getSync(227);
     state = value;
-    isar.writeTxnSync(
-        () => isar.settings.putSync(settings!..updateProgressAfterReading = value));
+    isar.writeTxnSync(() =>
+        isar.settings.putSync(settings!..updateProgressAfterReading = value));
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 
 class SeachFormTextField extends StatelessWidget {
   final Function(String)? onChanged;

@@ -1,9 +1,9 @@
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/models/track_search.dart';
-import 'package:mangayomi/modules/more/settings/track/providers/track_providers.dart';
-import 'package:mangayomi/services/trackers/anilist.dart';
-import 'package:mangayomi/services/trackers/kitsu.dart';
-import 'package:mangayomi/services/trackers/myanimelist.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/models/track_search.dart';
+import 'package:filmpisso/modules/more/settings/track/providers/track_providers.dart';
+import 'package:filmpisso/services/trackers/anilist.dart';
+import 'package:filmpisso/services/trackers/kitsu.dart';
+import 'package:filmpisso/services/trackers/myanimelist.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'track_state_providers.g.dart';
 

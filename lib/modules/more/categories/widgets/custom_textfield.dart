@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/models/category.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/models/category.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 
 class CustomTextFormField extends StatelessWidget {
   final TextEditingController controller;

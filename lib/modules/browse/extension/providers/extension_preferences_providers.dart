@@ -1,8 +1,8 @@
 import 'package:isar/isar.dart';
-import 'package:mangayomi/eval/dart/model/source_preference.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/services/get_source_preference.dart';
+import 'package:filmpisso/eval/dart/model/source_preference.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/services/get_source_preference.dart';
 
 void setPreferenceSetting(SourcePreference sourcePreference, Source source) {
   final sourcePref = isar.sourcePreferences

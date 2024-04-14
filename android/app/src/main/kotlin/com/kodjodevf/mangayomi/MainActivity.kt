@@ -1,4 +1,4 @@
-package com.kodjodevf.mangayomi
+package com.charithmadhuranga.filmpisso
 
 import androidx.annotation.NonNull
 import libmtorrentserver.Libmtorrentserver
@@ -13,7 +13,7 @@ class MainActivity: FlutterActivity() {
         super.configureFlutterEngine(flutterEngine)
         MethodChannel(
             flutterEngine.dartExecutor.binaryMessenger,
-            "com.kodjodevf.mangayomi.libmtorrentserver",
+            "com.charithmadhuranga.filmpisso.libmtorrentserver",
             StandardMethodCodec.INSTANCE,
             flutterEngine.dartExecutor.binaryMessenger.makeBackgroundTaskQueue()
         ).setMethodCallHandler { call, result ->

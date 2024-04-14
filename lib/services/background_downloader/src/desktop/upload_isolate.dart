@@ -6,7 +6,7 @@ import 'dart:io';
 import 'dart:isolate';
 
 import 'package:http/http.dart' as http;
-import 'package:mangayomi/services/background_downloader/src/exceptions.dart';
+import 'package:filmpisso/services/background_downloader/src/exceptions.dart';
 import 'package:path/path.dart' as p;
 
 import '../models.dart';

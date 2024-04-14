@@ -1,4 +1,4 @@
-import 'package:mangayomi/models/source.dart';
+import 'package:filmpisso/models/source.dart';
 
 //For testing purposes, set to true
 const useTestSourceCode = false;
@@ -17,7 +17,7 @@ final testSourceModelList = [
 ];
 
 const testSourceCode = r'''
-import 'package:mangayomi/bridge_lib.dart';
+import 'package:filmpisso/bridge_lib.dart';
 import 'dart:convert';
 
 class TestSource extends MProvider {

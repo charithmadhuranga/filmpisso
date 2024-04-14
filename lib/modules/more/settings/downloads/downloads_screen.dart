@@ -1,9 +1,9 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/modules/more/settings/downloads/providers/downloads_state_provider.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/modules/more/settings/downloads/providers/downloads_state_provider.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class DownloadsScreen extends ConsumerStatefulWidget {
   const DownloadsScreen({super.key});

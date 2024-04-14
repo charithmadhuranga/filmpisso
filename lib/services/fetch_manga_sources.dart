@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'package:dart_eval/stdlib/core.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/eval/dart/compiler/compiler.dart';
-import 'package:mangayomi/eval/dart/runtime/runtime.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/more/settings/browse/providers/browse_state_provider.dart';
-import 'package:mangayomi/services/http/m_client.dart';
+import 'package:filmpisso/eval/dart/compiler/compiler.dart';
+import 'package:filmpisso/eval/dart/runtime/runtime.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/more/settings/browse/providers/browse_state_provider.dart';
+import 'package:filmpisso/services/http/m_client.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'fetch_manga_sources.g.dart';
@@ -203,7 +203,7 @@ Future<String?> getHeaders(String codeSource, String baseUrl) async {
     final runtime = runtimeEval(bytecode);
     runtime.args = [$String(baseUrl)];
     var res = await runtime.executeLib(
-      'package:mangayomi/main.dart',
+      'package:filmpisso/main.dart',
       'getHeader',
     );
     Map<String, String> headers = {};

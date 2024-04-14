@@ -9,7 +9,7 @@ import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/modules/anime/providers/state_provider.dart';
+import 'package:filmpisso/modules/anime/providers/state_provider.dart';
 import 'package:media_kit_video/media_kit_video.dart';
 
 class CustomSubtitleView extends ConsumerStatefulWidget {
@@ -118,11 +118,21 @@ TextStyle subtileTextStyle(WidgetRef ref) {
           subSets.textColorG!, subSets.textColorB!),
       shadows: [
         Shadow(
-            offset: const Offset(-1.5, -1.5), color: borderColor, blurRadius: 1.4),
+            offset: const Offset(-1.5, -1.5),
+            color: borderColor,
+            blurRadius: 1.4),
         Shadow(
-            offset: const Offset(1.5, -1.5), color: borderColor, blurRadius: 1.4),
-        Shadow(offset: const Offset(1.5, 1.5), color: borderColor, blurRadius: 1.4),
-        Shadow(offset: const Offset(-1.5, 1.5), color: borderColor, blurRadius: 1.4)
+            offset: const Offset(1.5, -1.5),
+            color: borderColor,
+            blurRadius: 1.4),
+        Shadow(
+            offset: const Offset(1.5, 1.5),
+            color: borderColor,
+            blurRadius: 1.4),
+        Shadow(
+            offset: const Offset(-1.5, 1.5),
+            color: borderColor,
+            blurRadius: 1.4)
       ],
       backgroundColor: Color.fromARGB(
           subSets.backgroundColorA!,

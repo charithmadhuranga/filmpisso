@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:grouped_list/sliver_grouped_list.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/browse/extension/providers/extensions_provider.dart';
-import 'package:mangayomi/services/fetch_anime_sources.dart';
-import 'package:mangayomi/services/fetch_manga_sources.dart';
-import 'package:mangayomi/modules/widgets/progress_center.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/sources/source_test.dart';
-import 'package:mangayomi/utils/language.dart';
-import 'package:mangayomi/modules/browse/extension/widgets/extension_list_tile_widget.dart';
-import 'package:mangayomi/modules/more/settings/browse/providers/browse_state_provider.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/browse/extension/providers/extensions_provider.dart';
+import 'package:filmpisso/services/fetch_anime_sources.dart';
+import 'package:filmpisso/services/fetch_manga_sources.dart';
+import 'package:filmpisso/modules/widgets/progress_center.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/sources/source_test.dart';
+import 'package:filmpisso/utils/language.dart';
+import 'package:filmpisso/modules/browse/extension/widgets/extension_list_tile_widget.dart';
+import 'package:filmpisso/modules/more/settings/browse/providers/browse_state_provider.dart';
 
 class ExtensionScreen extends ConsumerWidget {
   final bool isManga;

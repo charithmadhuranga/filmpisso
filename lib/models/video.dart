@@ -1,4 +1,4 @@
-import 'package:mangayomi/eval/javascript/http.dart';
+import 'package:filmpisso/eval/javascript/http.dart';
 
 class Video {
   String url;

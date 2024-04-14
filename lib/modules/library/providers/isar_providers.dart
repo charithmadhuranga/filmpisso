@@ -1,7 +1,7 @@
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/models/settings.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/models/settings.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'isar_providers.g.dart';
 

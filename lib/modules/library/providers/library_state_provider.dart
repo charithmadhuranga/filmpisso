@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/modules/manga/reader/providers/reader_controller_provider.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/modules/manga/reader/providers/reader_controller_provider.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'library_state_provider.g.dart';
 

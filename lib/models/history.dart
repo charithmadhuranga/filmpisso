@@ -1,5 +1,5 @@
 import 'package:isar/isar.dart';
-import 'package:mangayomi/models/chapter.dart';
+import 'package:filmpisso/models/chapter.dart';
 part 'history.g.dart';
 
 @collection

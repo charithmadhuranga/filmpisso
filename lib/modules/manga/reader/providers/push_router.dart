@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/sources/source_test.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/sources/source_test.dart';
 
 pushMangaReaderView({
   required BuildContext context,

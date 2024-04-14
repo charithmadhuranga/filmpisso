@@ -1,10 +1,10 @@
 import 'dart:typed_data';
 import 'package:file_picker/file_picker.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/modules/manga/archive_reader/models/models.dart';
-import 'package:mangayomi/modules/manga/archive_reader/providers/archive_reader_providers.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/modules/manga/archive_reader/models/models.dart';
+import 'package:filmpisso/modules/manga/archive_reader/providers/archive_reader_providers.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'local_archive.g.dart';
 

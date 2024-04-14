@@ -1,14 +1,14 @@
 import 'dart:developer';
 import 'package:http_interceptor/http_interceptor.dart';
 import 'package:intl/intl.dart';
-import 'package:mangayomi/eval/dart/model/m_bridge.dart';
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/models/track_preference.dart';
+import 'package:filmpisso/eval/dart/model/m_bridge.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/models/track_preference.dart';
 import 'dart:convert';
-import 'package:mangayomi/models/track_search.dart';
-import 'package:mangayomi/modules/more/settings/track/myanimelist/model.dart';
-import 'package:mangayomi/modules/more/settings/track/providers/track_providers.dart';
-import 'package:mangayomi/services/http/m_client.dart';
+import 'package:filmpisso/models/track_search.dart';
+import 'package:filmpisso/modules/more/settings/track/myanimelist/model.dart';
+import 'package:filmpisso/modules/more/settings/track/providers/track_providers.dart';
+import 'package:filmpisso/services/http/m_client.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'kitsu.g.dart';
 

@@ -1,6 +1,6 @@
 import 'package:isar/isar.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/utils/constant.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/utils/constant.dart';
 part 'settings.g.dart';
 
 @collection

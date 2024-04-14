@@ -1,13 +1,13 @@
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/modules/manga/reader/image_view_center.dart';
-import 'package:mangayomi/modules/manga/reader/reader_view.dart';
-import 'package:mangayomi/modules/manga/reader/widgets/circular_progress_indicator_animate_rotate.dart';
-import 'package:mangayomi/modules/more/settings/reader/reader_screen.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/modules/manga/reader/image_view_center.dart';
+import 'package:filmpisso/modules/manga/reader/reader_view.dart';
+import 'package:filmpisso/modules/manga/reader/widgets/circular_progress_indicator_animate_rotate.dart';
+import 'package:filmpisso/modules/more/settings/reader/reader_screen.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:photo_view/photo_view_gallery.dart';
 

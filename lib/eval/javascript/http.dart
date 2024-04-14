@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter_qjs/flutter_qjs.dart';
 import 'package:http_interceptor/http_interceptor.dart';
-import 'package:mangayomi/services/http/m_client.dart';
+import 'package:filmpisso/services/http/m_client.dart';
 
 class JsHttpClient {
   late JavascriptRuntime runtime;

@@ -10,17 +10,17 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/modules/more/settings/appearance/providers/app_font_family.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/providers/storage_provider.dart';
-import 'package:mangayomi/router/router.dart';
-import 'package:mangayomi/modules/more/settings/appearance/providers/blend_level_state_provider.dart';
-import 'package:mangayomi/modules/more/settings/appearance/providers/flex_scheme_color_state_provider.dart';
-import 'package:mangayomi/modules/more/settings/appearance/providers/pure_black_dark_mode_state_provider.dart';
-import 'package:mangayomi/modules/more/settings/appearance/providers/theme_mode_state_provider.dart';
+import 'package:filmpisso/modules/more/settings/appearance/providers/app_font_family.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/providers/storage_provider.dart';
+import 'package:filmpisso/router/router.dart';
+import 'package:filmpisso/modules/more/settings/appearance/providers/blend_level_state_provider.dart';
+import 'package:filmpisso/modules/more/settings/appearance/providers/flex_scheme_color_state_provider.dart';
+import 'package:filmpisso/modules/more/settings/appearance/providers/pure_black_dark_mode_state_provider.dart';
+import 'package:filmpisso/modules/more/settings/appearance/providers/theme_mode_state_provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:media_kit/media_kit.dart';
-import 'package:mangayomi/messages/generated.dart';
+import 'package:filmpisso/messages/generated.dart';
 import 'package:window_manager/window_manager.dart';
 
 // Global instance of the Isar database.

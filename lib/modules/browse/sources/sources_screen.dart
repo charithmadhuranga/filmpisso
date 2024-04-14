@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:grouped_list/sliver_grouped_list.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/browse/sources/widgets/source_list_tile.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/sources/source_test.dart';
-import 'package:mangayomi/utils/language.dart';
-import 'package:mangayomi/modules/more/settings/browse/providers/browse_state_provider.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/browse/sources/widgets/source_list_tile.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/sources/source_test.dart';
+import 'package:filmpisso/utils/language.dart';
+import 'package:filmpisso/modules/more/settings/browse/providers/browse_state_provider.dart';
 
 class SourcesScreen extends ConsumerWidget {
   final Function(int) tabIndex;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/models/track_preference.dart';
-import 'package:mangayomi/modules/more/settings/track/providers/track_providers.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
-import 'package:mangayomi/utils/constant.dart';
+import 'package:filmpisso/models/track_preference.dart';
+import 'package:filmpisso/modules/more/settings/track/providers/track_providers.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/utils/constant.dart';
 
 class TrackListile extends ConsumerWidget {
   final VoidCallback onTap;

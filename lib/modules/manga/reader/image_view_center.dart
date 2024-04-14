@@ -3,13 +3,13 @@ import 'dart:typed_data';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/modules/manga/reader/providers/reader_controller_provider.dart';
-import 'package:mangayomi/modules/manga/reader/reader_view.dart';
-import 'package:mangayomi/modules/manga/reader/widgets/color_filter_widget.dart';
-import 'package:mangayomi/modules/more/settings/reader/providers/reader_state_provider.dart';
-import 'package:mangayomi/modules/widgets/custom_extended_image_provider.dart';
-import 'package:mangayomi/utils/headers.dart';
-import 'package:mangayomi/utils/reg_exp_matcher.dart';
+import 'package:filmpisso/modules/manga/reader/providers/reader_controller_provider.dart';
+import 'package:filmpisso/modules/manga/reader/reader_view.dart';
+import 'package:filmpisso/modules/manga/reader/widgets/color_filter_widget.dart';
+import 'package:filmpisso/modules/more/settings/reader/providers/reader_state_provider.dart';
+import 'package:filmpisso/modules/widgets/custom_extended_image_provider.dart';
+import 'package:filmpisso/utils/headers.dart';
+import 'package:filmpisso/utils/reg_exp_matcher.dart';
 
 class ImageViewCenter extends ConsumerWidget {
   final UChapDataPreload datas;
@@ -44,7 +44,8 @@ class ImageViewCenter extends ConsumerWidget {
             ? ExtendedMemoryImageProvider(archiveImage)
             : ExtendedFileImageProvider(
                 File('${datas.path!.path}${padIndex(datas.index! + 1)}.jpg'))
-        : CustomExtendedNetworkImageProvider(datas.url!.trim().trimLeft().trimRight(),
+        : CustomExtendedNetworkImageProvider(
+            datas.url!.trim().trimLeft().trimRight(),
             cache: true,
             cacheMaxAge: const Duration(days: 7),
             headers: ref.watch(headersProvider(

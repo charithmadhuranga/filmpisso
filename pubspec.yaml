@@ -1,5 +1,5 @@
-name: mangayomi
-description: Free and open source manga reader and anime streaming cross-plateform app inspired by Tachiyomi and Aniyomi.
+name: filmpisso
+description: Free and open source manga reader and anime streaming cross-plateform app inspired by Tachiyomi and Aniyomi,filmpisso.
 publish_to: "none"
 version: 0.2.2+52
 
@@ -66,7 +66,7 @@ dependencies:
       ref: master
   flutter_qjs:
     git:
-      url: https://github.com/kodjodevf/flutter_qjs.git
+      url: https://github.com/charithmadhuranga/flutter_qjs.git
       ref: main
   cronet_http: ^1.2.0
   cupertino_http: ^1.3.0
@@ -97,9 +97,9 @@ flutter:
   generate: true
 
   assets:
-    - assets/
-    - assets/trackers_icons/
-    - assets/app_icons/
+  - assets/
+  - assets/trackers_icons/
+  - assets/app_icons/
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true

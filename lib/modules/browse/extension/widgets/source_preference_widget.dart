@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/eval/dart/model/source_preference.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/browse/extension/providers/extension_preferences_providers.dart';
-import 'package:mangayomi/modules/manga/detail/widgets/chapter_filter_list_tile_widget.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/eval/dart/model/source_preference.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/browse/extension/providers/extension_preferences_providers.dart';
+import 'package:filmpisso/modules/manga/detail/widgets/chapter_filter_list_tile_widget.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class SourcePreferenceWidget extends StatefulWidget {
   final List<SourcePreference> sourcePreference;

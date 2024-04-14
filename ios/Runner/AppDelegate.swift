@@ -9,7 +9,7 @@ import Libmtorrentserver
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
       let controller : FlutterViewController = window?.rootViewController as! FlutterViewController
-      let mChannel = FlutterMethodChannel(name: "com.kodjodevf.mangayomi.libmtorrentserver", binaryMessenger: controller.binaryMessenger)
+      let mChannel = FlutterMethodChannel(name: "com.charithmadhuranga.filmpisso.libmtorrentserver", binaryMessenger: controller.binaryMessenger)
               mChannel.setMethodCallHandler({
                   (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
                   switch call.method {

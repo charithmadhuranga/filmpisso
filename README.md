@@ -6,7 +6,7 @@
 
 <p align="center">
 
-[![latest release](https://img.shields.io/github/release/kodjodevf/mangayomi.svg?maxAge=3600&label=download)](https://github.com/kodjodevf/mangayomi/releases)
+[![latest release](https://img.shields.io/github/release/charithmadhuranga/filmpisso.svg?maxAge=3600&label=download)](https://github.com/charithmadhuranga/filmpisso/releases)
 
 </p>
 
@@ -16,7 +16,7 @@ Filmpisso is free an open source manga reader and anime/Film/TVSeries streaming 
 
 Features include:
 
-- [Supports external sources](https://github.com/charithmadhuranga/filmpisso-extensions), utilizing the capabilities of the [dart_eval](https://pub.dev/packages/dart_eval) package & [flutter_qjs package A small Javascript engine supports ES2020](https://github.com/kodjodevf/flutter_qjs)
+- [Supports external sources](https://github.com/charithmadhuranga/filmpisso-extensions), utilizing the capabilities of the [dart_eval](https://pub.dev/packages/dart_eval) package & [flutter_qjs package A small Javascript engine supports ES2020](https://github.com/charithmadhuranga/flutter_qjs)
 - Online reading from a variety of sources
 - Watching anime from a variety of sources
 - Local reading of downloaded content
@@ -43,7 +43,7 @@ Features include:
 
 ## Download
 
-Get the app from our [releases page](https://github.com/kodjodevf/mangayomi/releases).
+Get the app from our [releases page](https://github.com/charithmadhuranga/filmpisso/releases).
 
 ## Using Rust Inside Flutter
 

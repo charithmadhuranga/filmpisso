@@ -1,6 +1,6 @@
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
-import 'package:mangayomi/modules/widgets/custom_extended_image_provider.dart';
+import 'package:filmpisso/modules/widgets/custom_extended_image_provider.dart';
 
 Widget cachedNetworkImage(
     {Map<String, String>? headers,

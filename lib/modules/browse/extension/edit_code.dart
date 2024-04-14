@@ -5,22 +5,22 @@ import 'package:json_view/json_view.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:highlight/languages/dart.dart';
 import 'package:highlight/languages/javascript.dart';
-import 'package:mangayomi/eval/dart/bridge/m_source.dart';
-import 'package:mangayomi/eval/dart/compiler/compiler.dart';
-import 'package:mangayomi/eval/dart/model/m_provider.dart';
-import 'package:mangayomi/eval/dart/runtime/runtime.dart';
-import 'package:mangayomi/eval/javascript/service.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/manga/home/widget/filter_widget.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/services/get_detail.dart';
-import 'package:mangayomi/services/get_filter_list.dart';
-import 'package:mangayomi/services/get_latest_updates.dart';
-import 'package:mangayomi/services/get_popular.dart';
-import 'package:mangayomi/services/search.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
-import 'package:mangayomi/utils/log/log.dart';
+import 'package:filmpisso/eval/dart/bridge/m_source.dart';
+import 'package:filmpisso/eval/dart/compiler/compiler.dart';
+import 'package:filmpisso/eval/dart/model/m_provider.dart';
+import 'package:filmpisso/eval/dart/runtime/runtime.dart';
+import 'package:filmpisso/eval/javascript/service.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/manga/home/widget/filter_widget.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/services/get_detail.dart';
+import 'package:filmpisso/services/get_filter_list.dart';
+import 'package:filmpisso/services/get_latest_updates.dart';
+import 'package:filmpisso/services/get_popular.dart';
+import 'package:filmpisso/services/search.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/utils/log/log.dart';
 
 class CodeEditor extends ConsumerStatefulWidget {
   final int? sourceId;
@@ -264,7 +264,7 @@ class _CodeEditorState extends ConsumerState<CodeEditor> {
                                                 runtimeEval(bytecode);
 
                                             var res = await runtime.executeLib(
-                                                'package:mangayomi/main.dart',
+                                                'package:filmpisso/main.dart',
                                                 'main', [
                                               $MSource.wrap(source!.toMSource())
                                             ]);
@@ -286,7 +286,7 @@ class _CodeEditorState extends ConsumerState<CodeEditor> {
                                                 runtimeEval(bytecode);
 
                                             var res = runtime.executeLib(
-                                                'package:mangayomi/main.dart',
+                                                'package:filmpisso/main.dart',
                                                 'main', [
                                               $MSource.wrap(source!.toMSource())
                                             ]);

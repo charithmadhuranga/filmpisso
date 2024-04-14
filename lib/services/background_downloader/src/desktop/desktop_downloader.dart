@@ -11,7 +11,7 @@ import 'package:flutter/services.dart';
 import 'package:google_api_availability/google_api_availability.dart';
 import 'package:http/io_client.dart';
 import 'package:logging/logging.dart';
-import 'package:mangayomi/services/http/m_client.dart';
+import 'package:filmpisso/services/http/m_client.dart';
 import 'package:path/path.dart' as path;
 import 'package:path_provider/path_provider.dart';
 

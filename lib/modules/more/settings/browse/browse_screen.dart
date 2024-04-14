@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
-import 'package:mangayomi/modules/more/settings/browse/providers/browse_state_provider.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/modules/more/settings/browse/providers/browse_state_provider.dart';
 
 class BrowseSScreen extends ConsumerWidget {
   const BrowseSScreen({super.key});
@@ -42,15 +42,15 @@ class BrowseSScreen extends ConsumerWidget {
                       title: Text(l10n.check_for_extension_updates),
                       onChanged: (value) {
                         ref
-                            .read(checkForExtensionsUpdateStateProvider.notifier)
+                            .read(
+                                checkForExtensionsUpdateStateProvider.notifier)
                             .set(value);
                       }),
                   if (checkForExtensionUpdates)
                     SwitchListTile(
                         value: autoUpdateExtensions,
                         title: Text(l10n.auto_extensions_updates),
-                        subtitle: Text(
-                            l10n.auto_extensions_updates_subtitle,
+                        subtitle: Text(l10n.auto_extensions_updates_subtitle,
                             style: TextStyle(
                                 fontSize: 11, color: context.secondaryColor)),
                         onChanged: (value) {

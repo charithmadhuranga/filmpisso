@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/download.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/providers/storage_provider.dart';
-import 'package:mangayomi/modules/manga/download/providers/download_provider.dart';
-import 'package:mangayomi/services/background_downloader/background_downloader.dart';
-import 'package:mangayomi/utils/global_style.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/download.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/providers/storage_provider.dart';
+import 'package:filmpisso/modules/manga/download/providers/download_provider.dart';
+import 'package:filmpisso/services/background_downloader/background_downloader.dart';
+import 'package:filmpisso/utils/global_style.dart';
 import 'package:share_plus/share_plus.dart';
 
 class ChapterPageDownload extends ConsumerStatefulWidget {

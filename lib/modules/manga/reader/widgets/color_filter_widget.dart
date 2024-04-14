@@ -2,9 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/modules/manga/reader/providers/color_filter_provider.dart';
-import 'package:mangayomi/modules/more/settings/reader/reader_screen.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/modules/manga/reader/providers/color_filter_provider.dart';
+import 'package:filmpisso/modules/more/settings/reader/reader_screen.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class ColorFilterWidget extends ConsumerWidget {
   final Widget child;

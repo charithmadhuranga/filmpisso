@@ -4,12 +4,12 @@ import 'dart:math';
 import 'package:flutter_web_auth_2/flutter_web_auth_2.dart';
 import 'package:http_interceptor/http_interceptor.dart';
 import 'package:intl/intl.dart';
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/models/track_preference.dart';
-import 'package:mangayomi/models/track_search.dart';
-import 'package:mangayomi/modules/more/settings/track/myanimelist/model.dart';
-import 'package:mangayomi/modules/more/settings/track/providers/track_providers.dart';
-import 'package:mangayomi/services/http/m_client.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/models/track_preference.dart';
+import 'package:filmpisso/models/track_search.dart';
+import 'package:filmpisso/modules/more/settings/track/myanimelist/model.dart';
+import 'package:filmpisso/modules/more/settings/track/providers/track_providers.dart';
+import 'package:filmpisso/services/http/m_client.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'myanimelist.g.dart';
 
@@ -29,7 +29,7 @@ class MyAnimeList extends _$MyAnimeList {
   Future<bool?> login() async {
     final callbackUrlScheme = (Platform.isWindows || Platform.isLinux)
         ? 'http://localhost:43824'
-        : 'mangayomi';
+        : 'filmpisso';
     final loginUrl = _authUrl();
 
     try {

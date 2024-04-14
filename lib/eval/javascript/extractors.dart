@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter_qjs/flutter_qjs.dart';
-import 'package:mangayomi/eval/dart/model/m_bridge.dart';
-import 'package:mangayomi/eval/javascript/http.dart';
-import 'package:mangayomi/models/video.dart';
+import 'package:filmpisso/eval/dart/model/m_bridge.dart';
+import 'package:filmpisso/eval/javascript/http.dart';
+import 'package:filmpisso/models/video.dart';
 
 class JsVideosExtractors {
   late JavascriptRuntime runtime;

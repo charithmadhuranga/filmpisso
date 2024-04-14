@@ -1,6 +1,6 @@
 import 'package:flutter_qjs/flutter_qjs.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/browse/extension/providers/extension_preferences_providers.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/browse/extension/providers/extension_preferences_providers.dart';
 
 class JsPreferences {
   late JavascriptRuntime runtime;
@@ -8,13 +8,13 @@ class JsPreferences {
   JsPreferences(this.runtime, this.source);
 
   init() {
-    runtime.onMessage('get', (dynamic args)  {
-      return  getPreferenceValue(source!.id!, args[0]);
+    runtime.onMessage('get', (dynamic args) {
+      return getPreferenceValue(source!.id!, args[0]);
     });
-    runtime.onMessage('getString', (dynamic args)  {
+    runtime.onMessage('getString', (dynamic args) {
       return getSourcePreferenceStringValue(source!.id!, args[0], args[1]);
     });
-    runtime.onMessage('setString', (dynamic args)  {
+    runtime.onMessage('setString', (dynamic args) {
       return setSourcePreferenceStringValue(source!.id!, args[0], args[1]);
     });
 

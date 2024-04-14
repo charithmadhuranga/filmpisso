@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class MangasCardSelector extends StatelessWidget {
   final String text;

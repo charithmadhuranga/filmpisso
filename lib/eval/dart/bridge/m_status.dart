@@ -1,12 +1,12 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
-import 'package:mangayomi/models/manga.dart';
+import 'package:filmpisso/models/manga.dart';
 
 class $MStatus implements $Instance {
   static $MStatus $wrap(Runtime runtime, $Value? target, List<$Value?> args) =>
       $MStatus.wrap(args[0]!.$value);
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'MStatus'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'MStatus'));
   static const $declaration = BridgeEnumDef($type, values: [
     'ongoing',
     'completed',

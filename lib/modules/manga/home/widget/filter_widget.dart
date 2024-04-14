@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/eval/dart/model/filter.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/eval/dart/model/filter.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class FilterWidget extends StatelessWidget {
   final List<dynamic> filterList;

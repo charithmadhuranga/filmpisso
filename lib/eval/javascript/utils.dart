@@ -1,8 +1,8 @@
 import 'package:flutter_qjs/flutter_qjs.dart';
 import 'package:js_packer/js_packer.dart';
-import 'package:mangayomi/eval/dart/model/m_bridge.dart';
-import 'package:mangayomi/utils/cryptoaes/js_unpacker.dart';
-import 'package:mangayomi/utils/log/log.dart';
+import 'package:filmpisso/eval/dart/model/m_bridge.dart';
+import 'package:filmpisso/utils/cryptoaes/js_unpacker.dart';
+import 'package:filmpisso/utils/log/log.dart';
 
 class JsUtils {
   late JavascriptRuntime runtime;

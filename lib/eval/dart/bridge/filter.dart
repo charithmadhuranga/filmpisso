@@ -1,12 +1,12 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
-import 'package:mangayomi/eval/dart/model/filter.dart';
+import 'package:filmpisso/eval/dart/model/filter.dart';
 
 class $FilterList implements FilterList, $Instance {
   $FilterList.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'FilterList'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'FilterList'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -81,7 +81,7 @@ class $SelectFilter implements SelectFilter, $Instance {
   $SelectFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'SelectFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'SelectFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -223,7 +223,7 @@ class $SelectFilterOption implements SelectFilterOption, $Instance {
   $SelectFilterOption.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(BridgeTypeSpec(
-      'package:mangayomi/bridge_lib.dart', 'SelectFilterOption'));
+      'package:filmpisso/bridge_lib.dart', 'SelectFilterOption'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -313,7 +313,7 @@ class $SeparatorFilter implements SeparatorFilter, $Instance {
   $SeparatorFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'SeparatorFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'SeparatorFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -388,7 +388,7 @@ class $HeaderFilter implements HeaderFilter, $Instance {
   $HeaderFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'HeaderFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'HeaderFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -478,7 +478,7 @@ class $TextFilter implements TextFilter, $Instance {
   $TextFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'TextFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'TextFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -576,7 +576,7 @@ class $SortFilter implements SortFilter, $Instance {
   $SortFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'SortFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'SortFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -704,7 +704,7 @@ class $SortState implements SortState, $Instance {
   $SortState.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'SortState'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'SortState'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -795,7 +795,7 @@ class $TriStateFilter implements TriStateFilter, $Instance {
   $TriStateFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'TriStateFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'TriStateFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -916,7 +916,7 @@ class $GroupFilter implements GroupFilter, $Instance {
   $GroupFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'GroupFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'GroupFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -1047,7 +1047,7 @@ class $CheckBoxFilter implements CheckBoxFilter, $Instance {
   $CheckBoxFilter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'CheckBoxFilter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'CheckBoxFilter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {

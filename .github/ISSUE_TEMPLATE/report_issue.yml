@@ -38,7 +38,7 @@ body:
     required: true
 
 - type: input
-  id: mangayomi-version
+  id: filmpisso-version
   attributes:
     label: Mangayomi version
     description: You can find your Mangayomi version in **More → About**.

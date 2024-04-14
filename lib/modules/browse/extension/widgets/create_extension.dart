@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/eval/dart/model/m_bridge.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/eval/dart/model/m_bridge.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class CreateExtension extends StatefulWidget {
   const CreateExtension({super.key});
@@ -155,8 +155,8 @@ class _CreateExtensionState extends State<CreateExtension> {
                           try {
                             final id =
                                 _sourceCodeLanguage == SourceCodeLanguage.dart
-                                    ? 'mangayomi-$_lang.$_name'.hashCode
-                                    : 'mangayomi-js-$_lang.$_name'.hashCode;
+                                    ? 'filmpisso-$_lang.$_name'.hashCode
+                                    : 'filmpisso-js-$_lang.$_name'.hashCode;
                             final checkIfExist = isar.sources.getSync(id);
                             if (checkIfExist == null) {
                               Source source = Source(
@@ -224,7 +224,7 @@ Widget _textEditing(String label, BuildContext context, String hintText,
 }
 
 const _dartTemplate = r'''
-import 'package:mangayomi/bridge_lib.dart';
+import 'package:filmpisso/bridge_lib.dart';
 import 'dart:convert';
 
 class TestSource extends MProvider {
@@ -285,7 +285,7 @@ TestSource main(MSource source) {
 }''';
 
 String _jsSample(Source source) => '''
-const mangayomiSources = [{
+const filmpissoSources = [{
     "name": "${source.name}",
     "lang": "${source.lang}",
     "baseUrl": "${source.baseUrl}",

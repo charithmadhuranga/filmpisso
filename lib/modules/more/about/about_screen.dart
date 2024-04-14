@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:mangayomi/modules/more/about/providers/check_for_update.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/modules/more/about/providers/check_for_update.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -106,7 +106,7 @@ class _AboutScreenState extends ConsumerState<AboutScreen> {
                     IconButton(
                         onPressed: () {
                           _launchInBrowser(Uri.parse(
-                              'https://github.com/kodjodevf/mangayomi'));
+                              'https://github.com/charithmadhuranga/filmpisso'));
                         },
                         icon: const Icon(FontAwesomeIcons.github)),
                     IconButton(

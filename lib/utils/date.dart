@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:mangayomi/modules/more/settings/appearance/providers/date_format_state_provider.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/modules/more/settings/appearance/providers/date_format_state_provider.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 
 String dateFormat(String? timestamp,
     {required WidgetRef ref,

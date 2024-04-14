@@ -3,13 +3,13 @@ import 'dart:io';
 import 'dart:isolate';
 import 'package:flutter/services.dart';
 import 'package:http_interceptor/http_interceptor.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/models/video.dart';
-import 'package:mangayomi/providers/storage_provider.dart';
-import 'package:mangayomi/services/http/m_client.dart';
-import 'package:mangayomi/utils/extensions/string_extensions.dart';
-import 'package:mangayomi/ffi/torrent_server_ffi.dart' as libmtorrentserver_ffi;
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/models/video.dart';
+import 'package:filmpisso/providers/storage_provider.dart';
+import 'package:filmpisso/services/http/m_client.dart';
+import 'package:filmpisso/utils/extensions/string_extensions.dart';
+import 'package:filmpisso/ffi/torrent_server_ffi.dart' as libmtorrentserver_ffi;
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'torrent_server.g.dart';
 
@@ -65,7 +65,7 @@ class MTorrentServer {
       int port = 0;
       if (Platform.isAndroid || Platform.isIOS) {
         const channel =
-            MethodChannel('com.kodjodevf.mangayomi.libmtorrentserver');
+            MethodChannel('com.charithmadhuranga.filmpisso.libmtorrentserver');
         port = await channel.invokeMethod('start', {"config": config});
       } else {
         port = await Isolate.run(() async {

@@ -2,21 +2,21 @@ import 'dart:convert';
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
 import 'package:flutter_qjs/flutter_qjs.dart';
-import 'package:mangayomi/eval/dart/bridge/document.dart';
-import 'package:mangayomi/eval/dart/bridge/filter.dart';
-import 'package:mangayomi/eval/dart/bridge/m_manga.dart';
-import 'package:mangayomi/eval/dart/bridge/m_pages.dart';
-import 'package:mangayomi/eval/dart/bridge/m_status.dart';
-import 'package:mangayomi/eval/dart/bridge/m_track.dart';
-import 'package:mangayomi/eval/dart/bridge/m_video.dart';
-import 'package:mangayomi/eval/dart/model/filter.dart';
-import 'package:mangayomi/eval/dart/model/m_bridge.dart';
-import 'package:mangayomi/eval/dart/model/m_pages.dart';
-import 'package:mangayomi/eval/dart/model/m_manga.dart';
-import 'package:mangayomi/eval/dart/model/m_provider.dart';
-import 'package:mangayomi/models/video.dart';
-import 'package:mangayomi/modules/browse/extension/providers/extension_preferences_providers.dart';
-import 'package:mangayomi/utils/log/log.dart';
+import 'package:filmpisso/eval/dart/bridge/document.dart';
+import 'package:filmpisso/eval/dart/bridge/filter.dart';
+import 'package:filmpisso/eval/dart/bridge/m_manga.dart';
+import 'package:filmpisso/eval/dart/bridge/m_pages.dart';
+import 'package:filmpisso/eval/dart/bridge/m_status.dart';
+import 'package:filmpisso/eval/dart/bridge/m_track.dart';
+import 'package:filmpisso/eval/dart/bridge/m_video.dart';
+import 'package:filmpisso/eval/dart/model/filter.dart';
+import 'package:filmpisso/eval/dart/model/m_bridge.dart';
+import 'package:filmpisso/eval/dart/model/m_pages.dart';
+import 'package:filmpisso/eval/dart/model/m_manga.dart';
+import 'package:filmpisso/eval/dart/model/m_provider.dart';
+import 'package:filmpisso/models/video.dart';
+import 'package:filmpisso/modules/browse/extension/providers/extension_preferences_providers.dart';
+import 'package:filmpisso/utils/log/log.dart';
 
 class $MProvider extends MProvider with $Bridge<MProvider> {
   static $MProvider $construct(
@@ -24,7 +24,7 @@ class $MProvider extends MProvider with $Bridge<MProvider> {
       $MProvider();
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'MProvider'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'MProvider'));
 
   static const $declaration = BridgeClassDef(
       BridgeClassType($type, isAbstract: true),

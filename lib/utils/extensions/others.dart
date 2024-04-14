@@ -4,8 +4,8 @@ import 'dart:typed_data';
 import 'dart:ui';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
-import 'package:mangayomi/modules/manga/reader/reader_view.dart';
-import 'package:mangayomi/utils/reg_exp_matcher.dart';
+import 'package:filmpisso/modules/manga/reader/reader_view.dart';
+import 'package:filmpisso/utils/reg_exp_matcher.dart';
 
 extension LetExtension<T> on T {
   R let<R>(R Function(T) block) {

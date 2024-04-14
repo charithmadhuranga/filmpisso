@@ -1,6 +1,6 @@
 import 'package:html/dom.dart';
-import 'package:mangayomi/eval/dart/model/element.dart';
-import 'package:mangayomi/utils/extensions/dom_extensions.dart';
+import 'package:filmpisso/eval/dart/model/element.dart';
+import 'package:filmpisso/utils/extensions/dom_extensions.dart';
 
 class MDocument {
   const MDocument(this._document);

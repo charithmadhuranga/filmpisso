@@ -1,16 +1,16 @@
 import 'dart:convert';
 import 'package:flutter_qjs/flutter_qjs.dart';
-import 'package:mangayomi/eval/javascript/dom_selector.dart';
-import 'package:mangayomi/eval/javascript/extractors.dart';
-import 'package:mangayomi/eval/javascript/http.dart';
-import 'package:mangayomi/eval/javascript/preferences.dart';
-import 'package:mangayomi/eval/javascript/utils.dart';
-import 'package:mangayomi/eval/dart/model/filter.dart';
-import 'package:mangayomi/eval/dart/model/m_manga.dart';
-import 'package:mangayomi/eval/dart/model/m_pages.dart';
-import 'package:mangayomi/eval/dart/model/source_preference.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/models/video.dart';
+import 'package:filmpisso/eval/javascript/dom_selector.dart';
+import 'package:filmpisso/eval/javascript/extractors.dart';
+import 'package:filmpisso/eval/javascript/http.dart';
+import 'package:filmpisso/eval/javascript/preferences.dart';
+import 'package:filmpisso/eval/javascript/utils.dart';
+import 'package:filmpisso/eval/dart/model/filter.dart';
+import 'package:filmpisso/eval/dart/model/m_manga.dart';
+import 'package:filmpisso/eval/dart/model/m_pages.dart';
+import 'package:filmpisso/eval/dart/model/source_preference.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/models/video.dart';
 
 class JsExtensionService {
   late JavascriptRuntime runtime;

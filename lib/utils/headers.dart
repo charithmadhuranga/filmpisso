@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:mangayomi/services/http/m_client.dart';
-import 'package:mangayomi/sources/utils/utils.dart';
+import 'package:filmpisso/services/http/m_client.dart';
+import 'package:filmpisso/sources/utils/utils.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'headers.g.dart';
 

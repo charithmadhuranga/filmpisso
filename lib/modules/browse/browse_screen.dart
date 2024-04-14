@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/services/fetch_manga_sources.dart';
-import 'package:mangayomi/modules/more/settings/browse/providers/browse_state_provider.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/providers/storage_provider.dart';
-import 'package:mangayomi/modules/browse/extension/extension_screen.dart';
-import 'package:mangayomi/modules/browse/sources/sources_screen.dart';
-import 'package:mangayomi/modules/library/widgets/search_text_form_field.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/services/fetch_manga_sources.dart';
+import 'package:filmpisso/modules/more/settings/browse/providers/browse_state_provider.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/providers/storage_provider.dart';
+import 'package:filmpisso/modules/browse/extension/extension_screen.dart';
+import 'package:filmpisso/modules/browse/sources/sources_screen.dart';
+import 'package:filmpisso/modules/library/widgets/search_text_form_field.dart';
 
 class BrowseScreen extends ConsumerStatefulWidget {
   const BrowseScreen({super.key});

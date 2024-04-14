@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mangayomi/modules/more/providers/incognito_mode_state_provider.dart';
-import 'package:mangayomi/modules/more/widgets/list_tile_widget.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/modules/more/providers/incognito_mode_state_provider.dart';
+import 'package:filmpisso/modules/more/widgets/list_tile_widget.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 
 class IncognitoModeWidget extends ConsumerWidget {
   const IncognitoModeWidget({super.key});

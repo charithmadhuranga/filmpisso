@@ -1,14 +1,14 @@
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/history.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/modules/manga/reader/providers/reader_controller_provider.dart';
-import 'package:mangayomi/modules/more/settings/player/providers/player_state_provider.dart';
-import 'package:mangayomi/services/aniskip.dart';
-import 'package:mangayomi/utils/chapter_recognition.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/history.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/modules/manga/reader/providers/reader_controller_provider.dart';
+import 'package:filmpisso/modules/more/settings/player/providers/player_state_provider.dart';
+import 'package:filmpisso/services/aniskip.dart';
+import 'package:filmpisso/utils/chapter_recognition.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'anime_player_controller_provider.g.dart';
 

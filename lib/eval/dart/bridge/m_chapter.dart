@@ -1,12 +1,12 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
-import 'package:mangayomi/eval/dart/model/m_chapter.dart';
+import 'package:filmpisso/eval/dart/model/m_chapter.dart';
 
 class $MChapter implements MChapter, $Instance {
   $MChapter.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'MChapter'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'MChapter'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {

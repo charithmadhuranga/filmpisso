@@ -10,24 +10,22 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
   build-and-release-android-apks:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
-
       - name: checkout branch
         uses: actions/checkout@v3
 
       - name: setup flutter
         uses: subosito/flutter-action@v2.10.0
         with:
-          channel: 'stable'
+          channel: "stable"
 
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
-      
+
       - name: Setup Java toolchain (Only Android target)
         uses: actions/setup-java@v3
         with:
@@ -36,7 +34,7 @@ jobs:
 
       - name: Install the CLI tool
         run: cargo install rinf
-        
+
       - name: Generate message files
         run: rinf message
 
@@ -69,7 +67,6 @@ jobs:
           artifacts: "build/app/outputs/flutter-apk/Mangayomi-*.apk"
           allowUpdates: true
 
-
   build-and-release-ios-ipa:
     permissions:
       contents: write
@@ -82,14 +79,14 @@ jobs:
       - name: setup flutter
         uses: subosito/flutter-action@v2.10.0
         with:
-          channel: 'stable'
-      
+          channel: "stable"
+
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
       - name: Install the CLI tool
         run: cargo install rinf
-        
+
       - name: Generate message files
         run: rinf message
 
@@ -125,21 +122,20 @@ jobs:
       contents: write
     runs-on: macos-latest
     steps:
-
       - name: checkout branch
         uses: actions/checkout@v3
 
       - name: setup flutter
         uses: subosito/flutter-action@v2.10.0
         with:
-          channel: 'stable'
+          channel: "stable"
 
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
       - name: Install the CLI tool
         run: cargo install rinf
-        
+
       - name: Generate message files
         run: rinf message
 
@@ -160,21 +156,20 @@ jobs:
       - name: upload artifact macos dmg
         uses: actions/upload-artifact@v3
         with:
-          path: "/Users/runner/work/mangayomi/mangayomi/*.dmg"
+          path: "/Users/runner/work/filmpisso/filmpisso/*.dmg"
 
       - name: release package macos dmg
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "/Users/runner/work/mangayomi/mangayomi/*.dmg"
+          artifacts: "/Users/runner/work/filmpisso/filmpisso/*.dmg"
           allowUpdates: true
-
 
   # build-and-release-windows-zip:
   #   permissions:
   #     contents: write
   #   runs-on: windows-latest
   #   steps:
-      
+
   #     - name: checkout branch
   #       uses: actions/checkout@v3
 
@@ -188,7 +183,7 @@ jobs:
 
   #     - name: Install the CLI tool
   #       run: cargo install rinf
-        
+
   #     - name: Generate message files
   #       run: rinf message
 
@@ -218,13 +213,11 @@ jobs:
   #         artifacts: build\windows\Mangayomi-*.zip
   #         allowUpdates: true
 
-          
   build-and-release-linux-zip:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      
       - name: checkout branch
         uses: actions/checkout@v3
 
@@ -236,14 +229,14 @@ jobs:
       - name: setup flutter
         uses: subosito/flutter-action@v2.10.0
         with:
-          channel: 'stable'
+          channel: "stable"
 
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
       - name: Install the CLI tool
         run: cargo install rinf
-        
+
       - name: Generate message files
         run: rinf message
 
@@ -252,13 +245,13 @@ jobs:
 
       - name: build linux
         run: flutter build linux --verbose
-      - name: Zip 
+      - name: Zip
         uses: thedoctor0/zip-release@master
         with:
           type: "zip"
           filename: Mangayomi-${{ github.ref_name }}-linux.zip
           directory: build/linux/x64/release/bundle
-      
+
       - name: upload artifact linux zip
         uses: actions/upload-artifact@v3
         with:
@@ -269,13 +262,11 @@ jobs:
           artifacts: build/linux/x64/release/bundle/Mangayomi-*.zip
           allowUpdates: true
 
-
   build-and-release-linux-appimage:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      
       - name: checkout branch
         uses: actions/checkout@v3
 
@@ -287,14 +278,14 @@ jobs:
       - name: setup flutter
         uses: subosito/flutter-action@v2.10.0
         with:
-          channel: 'stable'
-          
+          channel: "stable"
+
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
       - name: Install the CLI tool
         run: cargo install rinf
-        
+
       - name: Generate message files
         run: rinf message
 
@@ -302,17 +293,17 @@ jobs:
         run: flutter pub get
 
       - name: build linux
-        run: |  
+        run: |
 
           sudo apt install -y libfuse2
-          
+
           curl -JOL https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
           chmod a+x appimagetool-x86_64.AppImage
           mv appimagetool-x86_64.AppImage appimagetool
 
           flutter build linux --release
-          
-          mv build/linux/x64/release/bundle/{mangayomi,AppRun}
+
+          mv build/linux/x64/release/bundle/{filmpisso,AppRun}
           cp linux/appimage/* build/linux/x64/release/bundle/
           ./appimagetool build/linux/x64/release/bundle/
           mv *.AppImage build/Mangayomi-${{ github.ref_name }}-linux.AppImage

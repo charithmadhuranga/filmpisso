@@ -1,7 +1,7 @@
-import 'package:mangayomi/eval/dart/model/filter.dart';
-import 'package:mangayomi/eval/dart/model/m_pages.dart';
-import 'package:mangayomi/eval/dart/model/m_manga.dart';
-import 'package:mangayomi/models/video.dart';
+import 'package:filmpisso/eval/dart/model/filter.dart';
+import 'package:filmpisso/eval/dart/model/m_pages.dart';
+import 'package:filmpisso/eval/dart/model/m_manga.dart';
+import 'package:filmpisso/models/video.dart';
 
 abstract class MProvider {
   MProvider();

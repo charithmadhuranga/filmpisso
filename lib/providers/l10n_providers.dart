@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/settings.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/settings.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 part 'l10n_providers.g.dart';

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/models/track_preference.dart';
-import 'package:mangayomi/modules/manga/detail/widgets/tracker_widget.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/utils/constant.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/models/track_preference.dart';
+import 'package:filmpisso/modules/manga/detail/widgets/tracker_widget.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/utils/constant.dart';
 
 class TrackingDetail extends StatefulWidget {
   final TrackPreference trackerPref;

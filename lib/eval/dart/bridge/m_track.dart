@@ -1,12 +1,12 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
-import 'package:mangayomi/models/video.dart';
+import 'package:filmpisso/models/video.dart';
 
 class $MTrack implements Track, $Instance {
   $MTrack.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'MTrack'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'MTrack'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {

@@ -1,10 +1,10 @@
 import 'package:http_interceptor/http_interceptor.dart';
 import 'package:js_packer/js_packer.dart';
-import 'package:mangayomi/models/video.dart';
-import 'package:mangayomi/services/http/m_client.dart';
-import 'package:mangayomi/utils/extensions/others.dart';
-import 'package:mangayomi/utils/extensions/string_extensions.dart';
-import 'package:mangayomi/utils/xpath_selector.dart';
+import 'package:filmpisso/models/video.dart';
+import 'package:filmpisso/services/http/m_client.dart';
+import 'package:filmpisso/utils/extensions/others.dart';
+import 'package:filmpisso/utils/extensions/string_extensions.dart';
+import 'package:filmpisso/utils/xpath_selector.dart';
 
 class StreamWishExtractor {
   final InterceptedClient client = MClient.init();

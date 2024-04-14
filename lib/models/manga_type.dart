@@ -1,4 +1,4 @@
-import 'package:mangayomi/models/source.dart';
+import 'package:filmpisso/models/source.dart';
 
 class MangaType {
   String? lang;

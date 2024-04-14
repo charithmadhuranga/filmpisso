@@ -1,10 +1,10 @@
-import 'package:mangayomi/eval/dart/model/m_bridge.dart';
-import 'package:mangayomi/eval/dart/model/m_manga.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/services/get_detail.dart';
-import 'package:mangayomi/sources/utils/utils.dart';
+import 'package:filmpisso/eval/dart/model/m_bridge.dart';
+import 'package:filmpisso/eval/dart/model/m_manga.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/services/get_detail.dart';
+import 'package:filmpisso/sources/utils/utils.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'update_manga_detail_providers.g.dart';
 

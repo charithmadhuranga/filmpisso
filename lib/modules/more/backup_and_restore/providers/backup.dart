@@ -4,18 +4,18 @@ import 'package:archive/archive_io.dart';
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/eval/dart/model/source_preference.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/category.dart';
-import 'package:mangayomi/models/chapter.dart';
-import 'package:mangayomi/models/download.dart';
-import 'package:mangayomi/models/history.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/models/settings.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/models/track.dart';
-import 'package:mangayomi/models/track_preference.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
+import 'package:filmpisso/eval/dart/model/source_preference.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/category.dart';
+import 'package:filmpisso/models/chapter.dart';
+import 'package:filmpisso/models/download.dart';
+import 'package:filmpisso/models/history.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/models/settings.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/models/track.dart';
+import 'package:filmpisso/models/track_preference.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:share_plus/share_plus.dart';
 part 'backup.g.dart';
@@ -116,7 +116,7 @@ void doBackUp(DoBackUpRef ref,
   }
   final regExp = RegExp(r'[^a-zA-Z0-9 .()\-\s]');
   final name =
-      'mangayomi_${DateTime.now().toString().replaceAll(regExp, '_').replaceAll(' ', '_')}';
+      'filmpisso_${DateTime.now().toString().replaceAll(regExp, '_').replaceAll(' ', '_')}';
   final backupFilePath = '$path/$name.backup.db';
   final file = File(backupFilePath);
 

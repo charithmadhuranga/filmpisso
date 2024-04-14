@@ -1,5 +1,5 @@
 import 'package:html/dom.dart';
-import 'package:mangayomi/utils/reg_exp_matcher.dart';
+import 'package:filmpisso/utils/reg_exp_matcher.dart';
 import 'package:xpath_selector_html_parser/xpath_selector_html_parser.dart';
 
 extension DocumentExtension on Document? {

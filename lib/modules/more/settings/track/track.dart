@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/track_preference.dart';
-import 'package:mangayomi/modules/more/settings/track/providers/track_providers.dart';
-import 'package:mangayomi/modules/more/settings/track/widgets/track_listile.dart';
-import 'package:mangayomi/modules/more/widgets/list_tile_widget.dart';
-import 'package:mangayomi/providers/l10n_providers.dart';
-import 'package:mangayomi/services/trackers/anilist.dart';
-import 'package:mangayomi/services/trackers/kitsu.dart';
-import 'package:mangayomi/services/trackers/myanimelist.dart';
-import 'package:mangayomi/utils/extensions/build_context_extensions.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/track_preference.dart';
+import 'package:filmpisso/modules/more/settings/track/providers/track_providers.dart';
+import 'package:filmpisso/modules/more/settings/track/widgets/track_listile.dart';
+import 'package:filmpisso/modules/more/widgets/list_tile_widget.dart';
+import 'package:filmpisso/providers/l10n_providers.dart';
+import 'package:filmpisso/services/trackers/anilist.dart';
+import 'package:filmpisso/services/trackers/kitsu.dart';
+import 'package:filmpisso/services/trackers/myanimelist.dart';
+import 'package:filmpisso/utils/extensions/build_context_extensions.dart';
 
 class TrackScreen extends ConsumerWidget {
   const TrackScreen({super.key});

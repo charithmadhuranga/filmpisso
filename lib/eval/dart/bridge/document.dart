@@ -2,15 +2,15 @@ import 'package:dart_eval/dart_eval_bridge.dart';
 
 import 'package:dart_eval/stdlib/core.dart';
 import 'package:html/dom.dart';
-import 'package:mangayomi/eval/dart/bridge/element.dart';
-import 'package:mangayomi/eval/dart/model/document.dart';
-import 'package:mangayomi/eval/dart/model/element.dart';
+import 'package:filmpisso/eval/dart/bridge/element.dart';
+import 'package:filmpisso/eval/dart/model/document.dart';
+import 'package:filmpisso/eval/dart/model/element.dart';
 
 class $MDocument implements MDocument, $Instance {
   $MDocument.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'MDocument'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'MDocument'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {
@@ -328,7 +328,7 @@ class $Document implements $Instance {
   $Document.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'Document'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'Document'));
 
   static const $declaration = BridgeClassDef(
     BridgeClassType($type),

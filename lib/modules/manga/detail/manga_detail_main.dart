@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:isar/isar.dart';
-import 'package:mangayomi/main.dart';
-import 'package:mangayomi/models/source.dart';
-import 'package:mangayomi/modules/manga/detail/manga_details_view.dart';
-import 'package:mangayomi/modules/manga/detail/providers/update_manga_detail_providers.dart';
-import 'package:mangayomi/modules/manga/detail/providers/isar_providers.dart';
-import 'package:mangayomi/modules/widgets/error_text.dart';
-import 'package:mangayomi/modules/widgets/progress_center.dart';
-import 'package:mangayomi/sources/source_test.dart';
+import 'package:filmpisso/main.dart';
+import 'package:filmpisso/models/source.dart';
+import 'package:filmpisso/modules/manga/detail/manga_details_view.dart';
+import 'package:filmpisso/modules/manga/detail/providers/update_manga_detail_providers.dart';
+import 'package:filmpisso/modules/manga/detail/providers/isar_providers.dart';
+import 'package:filmpisso/modules/widgets/error_text.dart';
+import 'package:filmpisso/modules/widgets/progress_center.dart';
+import 'package:filmpisso/sources/source_test.dart';
 
 class MangaReaderDetail extends ConsumerStatefulWidget {
   final int mangaId;

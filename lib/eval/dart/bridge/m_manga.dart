@@ -1,17 +1,17 @@
 import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
-import 'package:mangayomi/eval/dart/bridge/m_chapter.dart';
-import 'package:mangayomi/eval/dart/bridge/m_status.dart';
-import 'package:mangayomi/eval/dart/model/m_chapter.dart';
-import 'package:mangayomi/eval/dart/model/m_manga.dart';
-import 'package:mangayomi/models/manga.dart';
-import 'package:mangayomi/utils/extensions/string_extensions.dart';
+import 'package:filmpisso/eval/dart/bridge/m_chapter.dart';
+import 'package:filmpisso/eval/dart/bridge/m_status.dart';
+import 'package:filmpisso/eval/dart/model/m_chapter.dart';
+import 'package:filmpisso/eval/dart/model/m_manga.dart';
+import 'package:filmpisso/models/manga.dart';
+import 'package:filmpisso/utils/extensions/string_extensions.dart';
 
 class $MManga implements MManga, $Instance {
   $MManga.wrap(this.$value) : _superclass = $Object($value);
 
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'MManga'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'MManga'));
 
   static const $declaration = BridgeClassDef(BridgeClassType($type),
       constructors: {

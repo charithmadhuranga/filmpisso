@@ -3,9 +3,9 @@ import 'package:dart_eval/dart_eval_bridge.dart';
 import 'package:dart_eval/stdlib/core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http_interceptor/http_interceptor.dart';
-import 'package:mangayomi/eval/dart/bridge/m_source.dart';
-import 'package:mangayomi/eval/dart/model/m_bridge.dart';
-import 'package:mangayomi/services/http/m_client.dart';
+import 'package:filmpisso/eval/dart/bridge/m_source.dart';
+import 'package:filmpisso/eval/dart/model/m_bridge.dart';
+import 'package:filmpisso/services/http/m_client.dart';
 
 /// dart_eval wrapper for [InterceptedClient]
 class $Client implements $Instance {
@@ -18,7 +18,7 @@ class $Client implements $Instance {
 
   /// Compile-time bridged type reference for [$InterceptedClient]
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'Client'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'Client'));
 
   /// Compile-time bridged class declaration for [$InterceptedClient]
   static const $declaration = BridgeClassDef(BridgeClassType($type),
@@ -366,7 +366,7 @@ class $BaseRequest implements $Instance {
 
   /// Compile-time bridged type reference for [$BaseRequest]
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'BaseRequest'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'BaseRequest'));
 
   /// Compile-time bridged class declaration for [$BaseRequest]
   static const $declaration =
@@ -460,7 +460,7 @@ class $Response implements $Instance {
 
   /// Compile-time bridged type reference for [$Response]
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'Response'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'Response'));
 
   /// Compile-time bridged class declaration for [$Response]
   static const $declaration = BridgeClassDef(
@@ -561,7 +561,7 @@ class $StreamedResponse implements $Instance {
 
   /// Compile-time bridged type reference for [$StreamedResponse]
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'StreamedResponse'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'StreamedResponse'));
 
   /// Compile-time bridged class declaration for [$StreamedResponse]
   static const $declaration = BridgeClassDef(
@@ -656,7 +656,7 @@ class $ByteStream implements $Instance {
 
   /// Compile-time bridged type reference for [$ByteStream]
   static const $type = BridgeTypeRef(
-      BridgeTypeSpec('package:mangayomi/bridge_lib.dart', 'ByteStream'));
+      BridgeTypeSpec('package:filmpisso/bridge_lib.dart', 'ByteStream'));
 
   /// Compile-time bridged class declaration for [$ByteStream]
   static const $declaration = BridgeClassDef(
