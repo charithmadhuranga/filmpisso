@@ -25,6 +25,7 @@ Features include:
 - Categories to organize your library
 - Light and dark themes
 - Create backups locally to read offline or to your desired cloud service
+- Download and stream Film/anime/TvSeries
 
 ## Screenshots :camera:
 

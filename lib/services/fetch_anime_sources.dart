@@ -9,7 +9,7 @@ Future fetchAnimeSourcesList(FetchAnimeSourcesListRef ref,
   if (ref.watch(checkForExtensionsUpdateStateProvider) || reFresh) {
     await fetchSourcesList(
         sourcesIndexUrl:
-            "https://kodjodevf.github.io/mangayomi-extensions/anime_index.json",
+            "https://charithmadhuranga.github.io/filmpisso-extensions/anime_index.json",
         refresh: reFresh,
         id: id,
         ref: ref,
