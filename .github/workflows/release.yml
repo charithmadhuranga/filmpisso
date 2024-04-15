@@ -183,6 +183,9 @@ jobs:
       - name: Install the CLI tool
         run: cargo install rinf
 
+      - name: Git long path setup
+        run: git config --system core.longpaths true
+
       - name: Generate message files
         run: rinf message
 
