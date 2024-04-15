@@ -52,19 +52,19 @@ jobs:
         run: |
           flutter build apk --release --split-per-abi
           cd build/app/outputs/flutter-apk
-          mv app-arm64-v8a-release.apk Mangayomi-${{ github.ref_name }}-android-arm64-v8a.apk
-          mv app-armeabi-v7a-release.apk Mangayomi-${{ github.ref_name }}-android-armeabi-v7a.apk
-          mv app-x86_64-release.apk Mangayomi-${{ github.ref_name }}-android-x86_64.apk
+          mv app-arm64-v8a-release.apk Filmpisso-${{ github.ref_name }}-android-arm64-v8a.apk
+          mv app-armeabi-v7a-release.apk Filmpisso-${{ github.ref_name }}-android-armeabi-v7a.apk
+          mv app-x86_64-release.apk Filmpisso-${{ github.ref_name }}-android-x86_64.apk
 
       - name: upload artifact android apks
         uses: actions/upload-artifact@v3
         with:
-          path: "build/app/outputs/flutter-apk/Mangayomi-*.apk"
+          path: "build/app/outputs/flutter-apk/Filmpisso-*.apk"
 
       - name: release packages android apks
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/app/outputs/flutter-apk/Mangayomi-*.apk"
+          artifacts: "build/app/outputs/flutter-apk/Filmpisso-*.apk"
           allowUpdates: true
 
   build-and-release-ios-ipa:
@@ -104,17 +104,17 @@ jobs:
           ln -s ../Runner.app
           cd ..
           zip -r app-release.ipa Payload
-          mv app-release.ipa Mangayomi-${{ github.ref_name }}-ios.ipa
+          mv app-release.ipa Filmpisso-${{ github.ref_name }}-ios.ipa
 
       - name: upload artifact ios ipa
         uses: actions/upload-artifact@v3
         with:
-          path: "build/ios/iphoneos/Mangayomi-*.ipa"
+          path: "build/ios/iphoneos/Filmpisso-*.ipa"
 
       - name: release package ios ipa
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/ios/iphoneos/Mangayomi-*.ipa"
+          artifacts: "build/ios/iphoneos/Filmpisso-*.ipa"
           allowUpdates: true
 
   build-and-release-macos-dmg:
@@ -151,7 +151,7 @@ jobs:
           cd ..
           flutter build macos --release
           brew install create-dmg 
-          create-dmg --volname Mangayomi-${{ github.ref_name }}-macos --window-pos 200 120 --window-size 800 450 --icon-size 100 --app-drop-link 600 185 Mangayomi-${{ github.ref_name }}-macos.dmg build/macos/Build/Products/Release/Mangayomi.app
+          create-dmg --volname Filmpisso-${{ github.ref_name }}-macos --window-pos 200 120 --window-size 800 450 --icon-size 100 --app-drop-link 600 185 Filmpisso-${{ github.ref_name }}-macos.dmg build/macos/Build/Products/Release/Filmpisso.app
 
       - name: upload artifact macos dmg
         uses: actions/upload-artifact@v3
@@ -195,22 +195,22 @@ jobs:
   #     - name: build windows
   #       run: |
   #         flutter build windows --release
-  #         $DestDir = "build\windows\Mangayomi-${{ github.ref_name }}-windows"
+  #         $DestDir = "build\windows\Filmpisso-${{ github.ref_name }}-windows"
   #         $SrcDir = "build\windows\runner\Release"
   #         New-Item -Path $DestDir -ItemType Directory
   #         Copy-Item $SrcDir\* -Recurse $DestDir
   #         Copy-Item -Filter *.dll -Path windows\* -Destination $DestDir -Force
-  #         Compress-Archive $DestDir build\windows\Mangayomi-${{ github.ref_name }}-windows.zip
+  #         Compress-Archive $DestDir build\windows\Filmpisso-${{ github.ref_name }}-windows.zip
 
   #     - name: upload artifact windows zip
   #       uses: actions/upload-artifact@v3
   #       with:
-  #         path: build\windows\Mangayomi-*.zip
+  #         path: build\windows\Filmpisso-*.zip
 
   #     - name: release package windows zip
   #       uses: ncipollo/release-action@v1
   #       with:
-  #         artifacts: build\windows\Mangayomi-*.zip
+  #         artifacts: build\windows\Filmpisso-*.zip
   #         allowUpdates: true
 
   build-and-release-linux-zip:
@@ -249,17 +249,17 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           type: "zip"
-          filename: Mangayomi-${{ github.ref_name }}-linux.zip
+          filename: Filmpisso-${{ github.ref_name }}-linux.zip
           directory: build/linux/x64/release/bundle
 
       - name: upload artifact linux zip
         uses: actions/upload-artifact@v3
         with:
-          path: build/linux/x64/release/bundle/Mangayomi-*.zip
+          path: build/linux/x64/release/bundle/Filmpisso-*.zip
       - name: release packages linux zip
         uses: ncipollo/release-action@v1
         with:
-          artifacts: build/linux/x64/release/bundle/Mangayomi-*.zip
+          artifacts: build/linux/x64/release/bundle/Filmpisso-*.zip
           allowUpdates: true
 
   build-and-release-linux-appimage:
@@ -306,14 +306,14 @@ jobs:
           mv build/linux/x64/release/bundle/{filmpisso,AppRun}
           cp linux/appimage/* build/linux/x64/release/bundle/
           ./appimagetool build/linux/x64/release/bundle/
-          mv *.AppImage build/Mangayomi-${{ github.ref_name }}-linux.AppImage
+          mv *.AppImage build/Filmpisso-${{ github.ref_name }}-linux.AppImage
 
       - name: upload artifact linux appimage
         uses: actions/upload-artifact@v3
         with:
-          path: build/Mangayomi-*.AppImage
+          path: build/Filmpisso-*.AppImage
       - name: Rrelease packages appimage
         uses: ncipollo/release-action@v1
         with:
-          artifacts: build/Mangayomi-*.AppImage
+          artifacts: build/Filmpisso-*.AppImage
           allowUpdates: true
