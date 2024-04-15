@@ -1,7 +1,7 @@
 name: filmpisso
 description: Free and open source manga reader and anime streaming cross-plateform app inspired by Tachiyomi and Aniyomi,filmpisso.
 publish_to: "none"
-version: 0.2.2+52
+version: 0.2.3+53
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
