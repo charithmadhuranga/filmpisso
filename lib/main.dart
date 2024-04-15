@@ -158,7 +158,7 @@ class _MyAppState extends ConsumerState<MyApp> {
       routeInformationParser: router.routeInformationParser,
       routerDelegate: router.routerDelegate,
       routeInformationProvider: router.routeInformationProvider,
-      title: 'MangaYomi',
+      title: 'Filmpisso',
     );
   }
 }
