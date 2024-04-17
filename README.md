@@ -25,6 +25,15 @@ Features include:
 - Create backups locally to read offline or to your desired cloud service
 - Download and stream Film/anime/TvSeries
 
+## ToDo List
+
+1. Catergorizing Content Seperatly Manga,anime,film,Tvseries
+2. add torrent streaming and downloading capabilites
+3. Improve the Searching Capabilities and filtering
+4. Improve source Mangement
+5. add a dashboard with Collections of shortcuts creation to navigate easy to favourite/recent film/anime/tvseries
+6. Notifications when favourite anime/tvseries/manga get new episodes
+
 ## Download
 
 Get the app from our [releases page](https://github.com/charithmadhuranga/filmpisso/releases).
