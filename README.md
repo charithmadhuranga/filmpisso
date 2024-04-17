@@ -25,20 +25,6 @@ Features include:
 - Create backups locally to read offline or to your desired cloud service
 - Download and stream Film/anime/TvSeries
 
-## Screenshots :camera:
-
-### Mobile Screenshots
-
-|       | Reader                                                | Player                                                |
-| ----- | ----------------------------------------------------- | ----------------------------------------------------- |
-| Views | ![mobile_reader_light](screenshots/mobile_reader.jpg) | ![mobile_anime_player](screenshots/mobile_player.jpg) |
-
-### Desktop Screenshots
-
-|       | Reader                                            | Player                                            |
-| ----- | ------------------------------------------------- | ------------------------------------------------- |
-| Views | ![desktop_reader](screenshots/desktop_reader.png) | ![desktop_player](screenshots/desktop_player.png) |
-
 ## Download
 
 Get the app from our [releases page](https://github.com/charithmadhuranga/filmpisso/releases).
