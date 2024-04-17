@@ -109,12 +109,6 @@ class _AboutScreenState extends ConsumerState<AboutScreen> {
                               'https://github.com/charithmadhuranga/filmpisso'));
                         },
                         icon: const Icon(FontAwesomeIcons.github)),
-                    IconButton(
-                        onPressed: () {
-                          _launchInBrowser(Uri.parse(
-                              'https://discord.com/invite/EjfBuYahsP'));
-                        },
-                        icon: const Icon(FontAwesomeIcons.discord))
                   ],
                 )
               ],
