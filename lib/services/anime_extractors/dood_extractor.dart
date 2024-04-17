@@ -33,7 +33,7 @@ class DoodExtractor {
           '${videoUrlStart.body}$randomString?token=$token&expiry=$expiry';
       return [
         Video(newUrl, newQuality, videoUrl, headers: {
-          'User-Agent': 'Mangayomi',
+          'User-Agent': 'Filmpisso',
           'Referer': 'https://$doodHost/',
         })
       ];

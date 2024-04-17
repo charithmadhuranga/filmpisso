@@ -1,5 +1,5 @@
 name: 🐞 Issue report
-description: Report an issue in Mangayomi
+description: Report an issue in Filmpisso
 labels: [Bug]
 body:
 - type: textarea
@@ -40,8 +40,8 @@ body:
 - type: input
   id: filmpisso-version
   attributes:
-    label: Mangayomi version
-    description: You can find your Mangayomi version in **More → About**.
+    label: Filmpisso version
+    description: You can find your Filmpisso version in **More → About**.
     placeholder: |
       Example: "0.0.67"
   validations:

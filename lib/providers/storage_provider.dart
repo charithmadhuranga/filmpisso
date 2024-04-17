@@ -37,10 +37,10 @@ class StorageProvider {
   Future<Directory?> getDefaultDirectory() async {
     Directory? directory;
     if (Platform.isAndroid) {
-      directory = Directory("/storage/emulated/0/Mangayomi/");
+      directory = Directory("/storage/emulated/0/Filmpisso/");
     } else {
       final dir = await getApplicationDocumentsDirectory();
-      directory = Directory("${dir.path}/Mangayomi/");
+      directory = Directory("${dir.path}/Filmpisso/");
     }
     return directory;
   }
@@ -64,11 +64,11 @@ class StorageProvider {
     String path = isar.settings.getSync(227)!.downloadLocation ?? "";
     if (Platform.isAndroid) {
       directory =
-          Directory(path.isEmpty ? "/storage/emulated/0/Mangayomi/" : "$path/");
+          Directory(path.isEmpty ? "/storage/emulated/0/Filmpisso/" : "$path/");
     } else {
       final dir = await getApplicationDocumentsDirectory();
       final p = path.isEmpty ? dir.path : path;
-      directory = Directory("$p/Mangayomi/");
+      directory = Directory("$p/Filmpisso/");
     }
     return directory;
   }
@@ -99,7 +99,7 @@ class StorageProvider {
     if (Platform.isAndroid || Platform.isIOS || Platform.isMacOS) {
       return dir;
     } else {
-      String dbDir = path.join(dir.path, 'Mangayomi', 'databases');
+      String dbDir = path.join(dir.path, 'Filmpisso', 'databases');
       await Directory(dbDir).create(recursive: true);
       return Directory(dbDir);
     }
@@ -108,7 +108,7 @@ class StorageProvider {
   Future<Directory?> getGalleryDirectory() async {
     String gPath = (await getDirectory())!.path;
     if (Platform.isAndroid) {
-      gPath = "/storage/emulated/0/Pictures/Mangayomi/";
+      gPath = "/storage/emulated/0/Pictures/Filmpisso/";
     } else {
       gPath = path.join(gPath, 'Pictures');
     }
