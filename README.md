@@ -2,8 +2,6 @@
  <img width=200px height=200px src="assets/app_icons/icon-red.png"/>
 </p>
 
-<h1 align="center"> Filmpisso </h1>
-
 <p align="center">
 
 [![latest release](https://img.shields.io/github/release/charithmadhuranga/filmpisso.svg?maxAge=3600&label=download)](https://github.com/charithmadhuranga/filmpisso/releases)
