@@ -97,7 +97,7 @@ jobs:
 
       - name: build ios
         run: |
-          flutter build ios --release
+          flutter build ios --release  -allowProvisioningUpdates 
           cd build/ios/iphoneos
           mkdir Payload
           cd Payload
