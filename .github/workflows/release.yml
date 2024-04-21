@@ -97,7 +97,7 @@ jobs:
 
       - name: build ios
         run: |
-          flutter build ios --release --verbose --export-options-plist=build/ios/exportOptions.plist
+          flutter build ios --export-options-plist=build/ios/exportOptions.plist --release --verbose 
           cd build/ios/iphoneos
           mkdir Payload
           cd Payload
