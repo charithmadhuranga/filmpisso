@@ -7,7 +7,7 @@
 
 </p>
 
-Filmpisso is free an open source manga reader and anime/Film/TVSeries streaming cross-platform app inspired by Mangayomi. It allows users to read manga and watch,Download anime/Film/TVSeries from variety of sources.
+Filmpisso is free an open source manga reader and anime/Film/TVSeries streaming cross-platform app. It allows users to read manga and watch,Download anime/Film/TVSeries from variety of sources.
 
 ## Features
 
