@@ -4,6 +4,7 @@
 <p align="center">
 
 [![latest release](https://img.shields.io/github/release/charithmadhuranga/filmpisso.svg?maxAge=3600&label=download)](https://github.com/charithmadhuranga/filmpisso/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/charithmadhuranga/filmpisso/total.svg)]()
 
 </p>
 
